@@ -1,7 +1,7 @@
 EMCO API Reference
 =
 
-Google Map Markers
+Google Map Markers XML
 -
 
 All locations
