@@ -62,4 +62,15 @@ Then corresponding `<graphic>` and `<zone>` elements must be created and the IDs
 
 This process repeats for every `<pb>` element within the `<body>` section
 
+## URLs - Undo URL encoding and find and replace `&` `"` symbols with &amp; and &quot;
+
+1. Find all instances of URLs that have been URL encoded, e.g. ones that begin
+
+
+    https%3A%2F%2Fbooks.google.co.uk%2F
+    
+     
+1. Copy and paste the URL into the decoder at: https://meyerweb.com/eric/tools/dencoder/ and press the **decode** button
+
+1. Copy and paste the decoded URL into a text editor and find and replace any `&` characters in the URL with `&amp;` symbol, and any `"` symbols with &quot;
 
