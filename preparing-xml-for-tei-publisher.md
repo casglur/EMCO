@@ -2,7 +2,7 @@
 
 Move notes
 -
-Move notes from within <div type="textualNotes"> and replace the corresponding <ref target="n1782.1"><hi rend="sup">1</hi></ref> elements with the note content. 
+Move notes from within `<div type="textualNotes">` element and replace the corresponding `<ref target="n1782.1"><hi rend="sup">1</hi></ref>` elements with the note content. 
 
 So if the source contains
 
