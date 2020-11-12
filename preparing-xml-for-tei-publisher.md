@@ -19,7 +19,7 @@ Finally delete the <div type="textualNotes">` section once it is empty
 Create Facsimile section and find and replace `<pb...` element attribute values and populate facsimile section values
 -
 
-1. Create a Facsimile section in between `<teiHeader>` and `<text>` sections
+
 
     <facsimile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <surface n="" xml:id="surf-pb">
