@@ -26,6 +26,15 @@ You can specify when a rule will be applied to an element using the Predicate te
 XPATH operations
 -
 
+The Parameters section governs the adding of attributes to the element in focus. Parameter names can be:
+
+    content
+    label
+    type
+    
+The values (parameter) are what gets added as attribute value, i.e. parameter name: content parameter: 'foo'
+    
+
 Adding text in front of a value
 --
 
