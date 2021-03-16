@@ -17,6 +17,12 @@ Leave `Scope` untouched, then in the empty Renditions box enter:
     padding: 0 1em;
 ```
 
+Predicates
+-
+You can specify when a rule will be applied to an element using the Predicate text box. For example, if you have an `ab` element and you only want a rule to apply when the ancestor element is a `div` with the `type` attribute `translation` **or** the webcomponent `view` has a value of `normalized` and the `ab` element has a `rend` attribute value of `indent` then enter the following into the box
+
+    (ancestor::div[@type='translation'] or $parameters?view='normalized') and @rend='indent'
+
 XPATH operations
 -
 
