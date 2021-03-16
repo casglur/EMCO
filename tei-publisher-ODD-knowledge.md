@@ -26,10 +26,14 @@ You can specify when a rule will be applied to an element using the Predicate te
 XPATH operations
 -
 
-The Parameters section governs the adding of attributes to the element in focus. Parameter names can be:
+The Parameters section governs the adding of parameters to the element in focus. Parameter names can be:
 
     content
+    emit (to send particular content to other on-page TEI publisher web components)
+    facs (to add facsimile information for use with the built in image viewer)
     label
+    level
+    name
     type
     
 The values (parameter) are what gets added as attribute value, i.e. parameter name: content parameter: 'foo'
