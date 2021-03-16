@@ -39,7 +39,7 @@ For example, to add the word 'Page' in front of every page break number (the val
 Adding an attribute to every instance of an element
 --
 
-E.g. to add a `label` attribute to every instance of an anchor element
+E.g. to add a `label` attribute to every instance of an anchor element (n.b. this works with the `Note` behaviour)
 
     Parameter Name = label
     Parameter = @n/string()
