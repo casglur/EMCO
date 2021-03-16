@@ -35,9 +35,9 @@ Formatting a date
 
 To format an ISO date within a `<date>` element containg a `when` attribute add the following parameters:
 
-Parameter Name = default
-Parameter = .
+    Parameter Name = default
+    Parameter = .
 
-Parameter Name = alternate
-Parameter = format-date(@when, '[FNn], [D1o] [MNn], [Y]')
+    Parameter Name = alternate
+    Parameter = format-date(@when, '[FNn], [D1o] [MNn], [Y]')
 
