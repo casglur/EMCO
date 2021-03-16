@@ -31,8 +31,8 @@ Adding text in front of a value
 
 For example, to add the word 'Page' in front of every page break number (the value of @n), under the **Parameters** section add a new parameter as:
 
-    Parameter Name = Before
-    Parameter = 'Page ' || @n
+    Parameter Name: Before
+    Parameter: 'Page ' || @n
     
 ** Note that the Parameter value includes quote marks
 
@@ -41,11 +41,11 @@ Adding an attribute to every instance of an element
 
 E.g. to add a `label` attribute to every instance of an anchor element (n.b. this works with the `Note` behaviour)
 
-    Parameter Name = label
-    Parameter = @n/string()
+    Parameter Name: label
+    Parameter: @n/string()
 
-    Parameter Name = content    
-    Parameter = let $n := @n return $get(.)/ancestor::TEI//div[@type='notes']//note[@n=$n]/node()
+    Parameter Name: content    
+    Parameter: let $n := @n return $get(.)/ancestor::TEI//div[@type='notes']//note[@n=$n]/node()
     
     
 
@@ -54,9 +54,9 @@ Formatting a date
 
 To format an ISO date within a `<date>` element containg a `when` attribute add the following parameters:
 
-    Parameter Name = default
-    Parameter = .
+    Parameter Name: default
+    Parameter: .
 
-    Parameter Name = alternate
-    Parameter = format-date(@when, '[FNn], [D1o] [MNn], [Y]')
+    Parameter Name: alternate
+    Parameter: format-date(@when, '[FNn], [D1o] [MNn], [Y]')
 
