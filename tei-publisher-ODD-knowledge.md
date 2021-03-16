@@ -36,6 +36,19 @@ For example, to add the word 'Page' in front of every page break number (the val
     
 ** Note that the Parameter value includes quote marks
 
+Adding an attribute to every instance of an element
+--
+
+E.g. to add a `label` attribute to every instance of an anchor element
+
+    Parameter Name = label
+    Parameter = @n/string()
+
+    Parameter Name = content    
+    Parameter = let $n := @n return $get(.)/ancestor::TEI//div[@type='notes']//note[@n=$n]/node()
+    
+    
+
 Formatting a date
 --
 
