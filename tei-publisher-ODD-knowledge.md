@@ -32,7 +32,7 @@ The Parameters section governs the adding of parameters to the element in focus.
     emit (to send particular content to other on-page TEI publisher web components)
     facs (to add facsimile information for use with the built in image viewer)
     label
-    level (the element level)
+    level (the element level, if behaviour is set to Heading then this value will determine what type of H tag will be outputted, e.g. H1, H2)
     name
     type
     
