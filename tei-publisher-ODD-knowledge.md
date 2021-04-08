@@ -33,7 +33,9 @@ The Parameters section governs the adding of parameters to the element in focus.
     facs (to add facsimile information for use with the built in image viewer)
     label
     level (the element level, if behaviour is set to Heading then this value will determine what type of H tag will be outputted, e.g. H1, H2)
+    link (the value/contents of the hyperlink)
     name
+    target (if used with 'link' behaviour governs what happens when a link is clicked. Value can be '_blank' to open a new tab/window)
     type
     
 The values (parameter) are what gets added as attribute value, i.e. parameter name: content parameter: 'foo'
