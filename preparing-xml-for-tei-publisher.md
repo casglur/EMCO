@@ -80,4 +80,4 @@ Inline bibiliographic references should use the `<ref>` element as follows
 
     <ref target="emco-bibl-22" type="editorial"><hi rend="italic">Companions Without Vows: Relationships among Eighteenth- Century British Women</hi></ref>
    
-The `type` attribute can be either `editorial` or `historical` the difference being, an editorial reference is a text we used in editing the letters, whereas a historical reference is a work that Montagu read.
+The `type` attribute can be either `editorial` or `historical` the difference being, an editorial reference is a text we used in editing the letters, whereas a historical reference is a historical work that Montagu read.
