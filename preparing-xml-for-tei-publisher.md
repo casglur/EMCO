@@ -74,3 +74,10 @@ This process repeats for every `<pb>` element within the `<body>` section
 
 1. Copy and paste the decoded URL into a text editor and find and replace any `&` characters in the URL with `&amp;` symbol, and any `"` symbols with `&quot;`
 
+# Inline bibliographic references
+
+Inline bibiliographic references should use the `<ref>` element as follows
+
+   <ref target="emco-bibl-22" type="editorial"><hi rend="italic">Companions Without Vows: Relationships among Eighteenth- Century British Women</hi></ref>
+   
+The `type` attribute can be either `editorial` or `historical` the difference being, an editorial reference is a text we used in editing the letters, whereas a historical reference is a work that Montagu read
