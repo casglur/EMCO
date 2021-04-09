@@ -76,7 +76,7 @@ This process repeats for every `<pb>` element within the `<body>` section
 
 # Inline bibliographic references
 
-Inline bibiliographic references should use the `<ref>` element as follows
+Inline bibliographic references should use the `<ref>` element as follows
 
     <ref target="emco-bibl-22" type="editorial"><hi rend="italic">Companions Without Vows: Relationships among Eighteenth- Century British Women</hi></ref>
    
